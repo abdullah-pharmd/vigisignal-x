@@ -1,0 +1,48 @@
+# Hidden Local Context & AI Engineering Rules
+.claudecoderules
+.antigravityrules
+.ai_context.md
+.local_context/
+evaluation_logs/
+.agents/
+.antigravity/
+AGENTS.md
+ORIGINAL_REQUEST.md
+PROJECT.md
+implementation_plan.md
+walkthrough.md
+strategy/
+supporting_projects/
+local_developer_notes.md
+stress-test-failures.md
+
+# Python and Execution Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.poetry/
+vendor/
+.coverage
+htmlcov/
+
+# Environment and Local Database Layers
+.env
+.venv
+env/
+venv/
+*.db
+*.sqlite3
+
+# Local Framework Files
+.streamlit/config.toml
+.streamlit/secrets.toml
+.vscode/
+.idea/
+
+# VigiSignal-X Data & Generated Assets
+data/raw/raw_reports.json
+data/processed/active_signals.csv
+data/reports/*.pdf
+!data/reports/.gitkeep
